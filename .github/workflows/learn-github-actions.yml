@@ -1,8 +1,5 @@
-on:
-  pull_request:
-    branches: [documentation]
-  push:
-    branches: [documentation]
+
+on: [push]
 
 jobs:
   checks:
